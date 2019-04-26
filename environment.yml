@@ -1,6 +1,10 @@
 name: example-environment
 channels:
+  - defaults
   - conda-forge
 dependencies:
+  - pybind11=2.2.2
+  - gxx_linux-64=7.2.0
+  - conda-build=3.6.0
   - pip:
-      - "--editable=git+https://github.com/edwenger/pybind_test.git@16090fa51d784062953e3ca3d844ac5688bb6de1#egg=pybind_test-master"
+      - "--editable=git+https://github.com/edwenger/pybind_test.git@16090fa51d784062953e3ca3d844ac5688bb6de1#egg=pybind_test"
