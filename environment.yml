@@ -3,4 +3,4 @@ channels:
   - conda-forge
 dependencies:
   - pip:
-      - ""--editable=git+https://github.com/edwenger/pybind_test.git@16090fa51d784062953e3ca3d844ac5688bb6de1#egg=pybind_test-master"
+      - "--editable=git+https://github.com/edwenger/pybind_test.git@16090fa51d784062953e3ca3d844ac5688bb6de1#egg=pybind_test-master"
