@@ -19,4 +19,4 @@ source activate example-environment
 conda env export --no-builds -f environment.yml
 ```
 
-In the `postBuild` file, we clone our custom module, including the `pybind11` dependency before building.
+In the `postBuild` file, we clone our [custom module](https://github.com/edwenger/pybind_test), including the [`pybind11` dependency](https://github.com/pybind/pybind11) before building.
